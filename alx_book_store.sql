@@ -7,7 +7,7 @@ CREATE TABLE Books(
     book_id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(130) NOT NULL,
     author_id INT,
-    Price DOUBLE NOT NULL,
+    Price DECIMAL(10, 2) NOT NULL,
     publication_date DATE,
     FOREIGN KEY(author_id) REFERENCES Authors(author_id)
 );
