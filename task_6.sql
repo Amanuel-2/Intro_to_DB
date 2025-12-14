@@ -1,5 +1,5 @@
 USE alx_book_store;
-INSERT INTO CUSTOMERS (customer_id, customer_name, email, address)
+INSERT INTO customers (customer_id, customer_name, email, address)
 VALUES (
         2,
         'Blessing Malik',
